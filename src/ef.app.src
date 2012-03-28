@@ -1,0 +1,13 @@
+{application, ef,
+ [{description, ""}
+  ,{vsn, "1"}
+  ,{registered, []}
+  ,{applications,
+    [kernel
+     ,stdlib
+    ]}
+  ,{mod, { ef_app, []}}
+  ,{env,
+    [
+    ]}
+ ]}.
